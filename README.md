@@ -25,10 +25,32 @@ Second, Drag the file.
 - When the address verified successfully, the user will withdraw the prize.
 - When withdrawing the prize the system will transfer balance to winner's address
 - END
+_____________________________________________________________________________________________________________________________
+~ recurring_lottery_eth.xml
 
+- The user will initiate the contract
+- System will provide new round
+- The System will Set lottery duration and save to world state the total duration
+- The user will load contract address
+- The user will buy ticket
+- The System will end the time or duration lapsed
+- User will draw the winner
+- When user draw the winner, the system will generate random unsigned integer
+- After that, system will Use the generated integer to select an adress to Ticket list in world state
+- After that, system will Assign winner's address that will retrieved in world state
+- When the address verified successfully, the user will withdraw the prize.
+- When withdrawing the prize the system will transfer balance to winner's address
+- Add 1 to round counts
+- The system will initiate new rounds
+- If the round counts is less than or equal to 100, the system will be deleted 1 round
+_____________________________________________________________________________________________________________________________
+
+
+
+_____________________________________________________________________________________________________________________________
 # For Hyperledger Design Folder
 
-- SimpleLottery_Hyper.xml
+~ SimpleLottery_Hyper.xml
 
 - First, User will register and run the app
 - The system will Set lottery duration and save to world state
@@ -43,4 +65,7 @@ Second, Drag the file.
 - System will Get winner's ID.
 - Withdraw the prize and the system will transfer to winner's address
 - END
+_____________________________________________________________________________________________________________________________
+~ recurring_lottery_hyperledger.xml
 
+- 
