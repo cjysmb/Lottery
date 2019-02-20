@@ -10,7 +10,7 @@ Second, Drag the file.
 
 # For Ethereum Design Folder
 
-- SimpleLottery_Eth.xml
+~ SimpleLottery_Eth.xml
 
 - The user will initiate the contract
 - The System will Set lottery duration and save to world state the total duration
