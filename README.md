@@ -28,7 +28,7 @@ Second, Drag the file.
 
 # For Hyperledger Design Folder
 
-- SimpleLottery_Eth.xml
+- SimpleLottery_Hyper.xml
 
 - First, User will register and run the app
 - The system will Set lottery duration and save to world state
